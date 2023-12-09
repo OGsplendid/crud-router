@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.wrapper {
+  width: 60%;
+  /* border: 1px solid black; */
+  min-height: 200px;
+}
+
+.posts-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.posts-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.add-new {
+  width: 80px;
+  height: 25px;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 5%;
+}
+
+.add-new-link {
+  align-self: flex-end;
+}
+
+.common-post {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 100%;
+  border: 1px solid red;
+  margin-top: 10px;
+  min-height: 100px;
+  padding: 5px;
+  white-space: pre-wrap;
+}
+
+.new-post {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100px;
+}
+
+.new-post-input {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+.new-post-button {
+  width: 120px;
+  height: 30px;
+  align-self: flex-end;
+  margin-top: 15px;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.close-button {
+  width: 15px;
+  height: 15px;
+  border: none;
+  background-color: gray;
+  color: white
+}
+
+.close-button-link {
+  position: absolute;
+  top: -20px;
+  right: 0;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.post-buttons {
+  margin-top: 10px;
+  align-self: flex-end;
+}
+
+.post-button {
+  margin-left: 10px;
+  width: 80px;
+  height: 25px;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 5%;
+}
+
+.post-delete {
+  background-color: red;
+}
